@@ -1,0 +1,84 @@
+/* 
+
+Color Pallette:
+black: #000;
+white: #fff;
+atomic tangerine: #F79F79;
+sunset: #F7D08A;
+mindaro: #E3F09B;
+cambridge blue: #87B6A7;
+charcoal: #364652;
+
+Fonts:
+Google fonts:
+  font-family: "Dancing Script", cursive;
+
+
+*/
+header {
+  font-family: "Dancing Script", cursive;
+  background-color: #F79F79;
+  color: #fff;
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Dancing Script", cursive;
+}
+body {
+  font-family: "Source Serif 4", serif;
+}
+.navbar {
+  background-color: rgba(0, 0 ,0 , 0.7);
+  font-family: "Dancing Script", cursive
+}
+.navbar-toggler-icon {
+/*  color: #fff ;
+*/
+}
+.nav-item a {
+ /* color: #fff;
+*/
+}
+.navbar .nav-link.active {
+  font-size: 1.5rem;
+}
+.navbar .nav-link {
+  font-size: 1.5rem;
+}
+.navbar-toggler {
+ /* border: 1px solid #fff;
+*/
+ }
+.hero .herobox h1 {
+  padding: 15px 0;
+}
+.hero {
+  background-image: url('../img/pexels-cottonbro-3993320.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.herobox {
+  padding: 400px 15px 50px;
+}
+.location {
+  background-color: #F7D08A;
+  padding: 50px 0;
+}
+.location h1 {
+  padding: 25px 0;
+}
+.location .iframebox {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.location iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
