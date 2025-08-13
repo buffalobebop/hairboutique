@@ -51,7 +51,7 @@ body {
 .hero .herobox h1 {
   padding: 15px 0;
 }
-.hero {
+.background {
   background-image: url('../img/pexels-cottonbro-3993320.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,4 +81,57 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
+}
+.location .addressbox {
+  padding: 50px 25px;
+  font-size: 1.75rem;
+}
+.heroabout {
+  background-image: url('../img/pexels-delbeautybox-211032-853427.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.heroabout .heroaboutbox {
+  padding: 400px 15px 50px; 
+}
+footer {
+  background-color: #262626;
+  color: #fff;
+  padding: 25px 10px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  list-style-type: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+}
+footer nav a {
+  color: #F79F79;
+  text-decoration: none;
+}
+footer .address a {
+  display: block;
+  margin: 15px 0;
+
+}
+.footerbox a {
+  display: block;
+  font-size: 2.5rem;
+  color: #F7D08A;
+}
+.footerbox i {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+  .col-md-4 {
+    padding: 15px 0;
+  }
 }
